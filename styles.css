@@ -1,0 +1,32 @@
+*{
+  margin: 0;
+  padding: 10;
+  box-sizing: border-box;
+}
+
+/* Styles for the body of the page */
+body {
+  padding-top: 40px;
+  font-family: Arial, sans-serif;
+}
+
+/* Styles for the navigation bar */
+.navbar {
+    background-color: blue;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+/* Styles for the search bar within the navigation bar */
+.search-bar {
+  margin-right: auto;
+}
+
+/* Styles for the login button within the navigation bar */
+#login {
+  margin-right: auto;
+}
